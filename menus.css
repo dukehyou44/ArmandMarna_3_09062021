@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.page {
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #ffffff;
+}
+section {
+    background-color: #f2f2f2;
+}
+.logo {
+    width: 50%;
+}
+
+.img__restaurant {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    object-fit: cover;
+}
+.titre {
+    position: relative;
+    top: -65px;
+    border-radius: 45px 45px 0 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    font-family: "Shrikhand", cursive;
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 15px;
+}
+.fa-heart { 
+    font-size: 25px;
+    margin-right: 40px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5%;
+    padding-bottom: 10px;
+}
+.titre1 {
+    margin-top: -40px;
+}
+article {
+    padding-bottom: 10px;
+}
+article div {
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%;
+    box-shadow: 0 0 5px 5px #f2f2f2;
+}
+h3 {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+article ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+article ul li:nth-child(2) {
+    margin-right: 20px;
+    font-weight: 900;
+}
+.btn__commander {
+    background: linear-gradient(#FF79DA ,#9356DC);
+    border-radius: 25px;
+    width: initial;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+footer {
+    background-color:#3C3C3C;
+    color: #ffffff;
+    margin-top: 70px;
+}
+footer h3 {
+    font-family: "Shrikhand", cursive;
+    font-size: 15px;
+    padding: 15px 0 1px 25px;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 25px;
+}
+footer ul li {
+    padding-bottom: 10px;
+}
+.fa-utensils {
+    font-size: 14px;
+    margin-right: 9px;
+}
+.fa-hands-helping {
+    font-size: 11px;
+    margin-right: 7px;
+}
