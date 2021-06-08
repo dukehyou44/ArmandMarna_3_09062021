@@ -16,7 +16,7 @@ header {
     background-color: #f2f2f2;
     padding-bottom: 50px;
 }
-.header__presentation__titre {
+.header__presentation-titre {
     font-size: 22px;
     font-weight: bold;
     margin: 25px 15% 5px 15%;
@@ -44,7 +44,7 @@ nav h1 {
     margin-left: 5%;
     margin-bottom: 0;
 }
-ul.liste_numerotee {
+.nav__liste-numerotee {
     counter-reset: li;
     list-style-type: none;
     line-height: 18px;
@@ -53,7 +53,7 @@ ul.liste_numerotee {
     flex-direction: column;
     margin: 10px 5% 50px 5%;
 }
-  ul.liste_numerotee li {
+  .nav__liste-numerotee-elements {
     position: relative;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
@@ -65,7 +65,7 @@ ul.liste_numerotee {
     align-items: center;
     box-shadow: 0 0 5px 5px #e5e5e5;
 }
-  ul.liste_numerotee li:before {
+  .nav__liste-numerotee-elements:before {
     content: counter(li);
     counter-increment: li;
     height: 20px;
@@ -131,7 +131,7 @@ article img {
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
-.nouveautes {
+.article__sous-titre {
     position: absolute;
     font-size: 15px;
     top: 15px;
@@ -142,22 +142,22 @@ article img {
     font-weight: 700;
     border-radius: 4px;
 }
-.section__description2 {
+.article__presentation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 10px 15px 10px; 
 }
-.section__description {
+.article__presentation-titre-et-lieu {
     background-color: white;
 }
-.section__description h2 {
+.article__presentation-titre-et-lieu h2 {
     font-size: 18px;
     font-weight: 800;
     margin: 3px;
 }
-.section__description p {
+.article__presentation-titre-et-lieu p {
     font-size: 15px;
     margin: 2px 3px;  
 }
