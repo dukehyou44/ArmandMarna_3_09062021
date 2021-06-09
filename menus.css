@@ -3,18 +3,32 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .page {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 header {
     background-color: #ffffff;
 }
 section {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
+}
+header {
+    display: flex;
+    align-items: center;
 }
 .header__logo {
-    width: 50%;
+    width: 40%;
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
-
+.fa-arrow-left {
+    margin-left: 5%;
+    font-size: 20px;
+}
+header a:visited, header a:hover, header a:link {
+    color: black;
+    margin-left: 20px;
+}
 .section__img-restaurant {
     width: 100%;
     position: relative;
@@ -25,7 +39,7 @@ section {
     position: relative;
     top: -65px;
     border-radius: 45px 45px 0 0;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,8 +59,8 @@ h1 {
 
 h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     margin-left: 5%;
     padding-bottom: 10px;
 }
@@ -64,7 +78,7 @@ article div {
     flex-direction: column;
     width: 90%;
     margin: 5%;
-    box-shadow: 0 0 5px 5px #f2f2f2;
+    box-shadow: 2px 7px 10px 4px #e8e8e8;
 }
 h3 {
     margin-bottom: 0;
@@ -96,7 +110,7 @@ article ul li:nth-child(2) {
     margin-right: 25%;
 }
 footer {
-    background-color:#3C3C3C;
+    background-color:#353535;
     color: #ffffff;
     margin-top: 70px;
 }
