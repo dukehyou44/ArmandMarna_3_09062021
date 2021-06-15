@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+
+    .header__logo {
+       width: 40%;
+       margin-left: 20%;
+       padding-top: 20px;
+       padding-bottom: 15px;
+    }
+    .fa-arrow-left {
+       margin-left: 5%;
+       font-size: 20px;
+    }
+    a:visited, a:hover, a:link {
+       color: black;
+       margin-left: 20px;
+    }
+}

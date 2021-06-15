@@ -1,0 +1,28 @@
+footer {
+    background-color:#353535;
+    color: #ffffff;
+    margin-top: 70px;
+
+    h3 {
+       font-family: "Shrikhand", cursive;
+       font-size: 15px;
+       padding: 15px 0 1px 25px;
+    }
+    ul {
+       list-style-type: none;
+       padding: 0;
+       padding-left: 25px;
+    
+       li {
+          padding-bottom: 10px;
+       }
+    }   
+    .fa-utensils {
+       font-size: 14px;
+       margin-right: 9px;
+    }
+    .fa-hands-helping {
+       font-size: 11px;
+       margin-right: 7px;
+    }
+}

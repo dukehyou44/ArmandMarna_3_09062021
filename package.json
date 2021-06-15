@@ -1,0 +1,20 @@
+{
+  "name": "openclassrooms-projet3",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass_accueil/styles.scss:.//css/style.css",
+    "sass2": "sass --watch ./sass_menu/menu.scss:.//css/menu.css"   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukehyou44/OpenClassrooms-Projet3.git"
+  },
+  "author": "ADO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukehyou44/OpenClassrooms-Projet3/issues"
+  },
+  "homepage": "https://github.com/dukehyou44/OpenClassrooms-Projet3#readme"
+}
