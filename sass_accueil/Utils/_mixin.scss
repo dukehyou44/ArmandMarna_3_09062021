@@ -20,3 +20,28 @@
      box-shadow: 0px 5px 9px 4px #cfcfcf;
      margin-top: 10px;
 }
+
+@mixin petit-mobile {
+    @media screen and (min-width: map-get($breakpoints , petit-mobile)) and (max-width: map-get($breakpoints , mobile )) {
+        @content;
+    }
+}
+
+@mixin tablette {
+    @media screen and (min-width: map-get($breakpoints , tablette)) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: map-get($breakpoints , deskop)) {
+        @content;
+    }
+}
+
+
+@mixin large-laptop {
+    @media screen and (min-width: map-get($breakpoints , large screens)) {
+        @content;
+    }
+}

@@ -9,6 +9,9 @@ form {
     align-items: center;
     justify-content: center;
     box-shadow: 0 -1px 3px -1px #484848;
+    @include tablette{
+        height: 60px;
+    }
 
     .fa-map-marker-alt {
         font-size: 18px;
@@ -23,5 +26,9 @@ form {
         width: 140px;
         font-weight: 600;
         color: #404040;
+        @include tablette{
+            font-size: 22px;
+            width: 260px;
+        }
     }
 }  

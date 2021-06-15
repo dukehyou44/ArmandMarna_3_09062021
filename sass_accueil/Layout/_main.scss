@@ -9,10 +9,18 @@ section {
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 50px;
+    @include tablette{
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+     }
 
     h1 {
         padding-top: 25px;
         margin-left: 5%;
+        @include tablette{
+            font-size: 30px;
+            width: 100%;
+         }
     }
 }    
 article {
@@ -21,6 +29,11 @@ article {
     background-color: #ffffff;
     margin: 5px 5% 20px 5%;
     position: relative;
+    @include tablette{
+        margin: 0;
+        width: 40%;
+        margin-bottom: 6%;
+     }
 
     & img {
         object-fit: cover;

@@ -4,6 +4,9 @@ nav h1 {
     padding-top: 25px;
     margin-left: 5%;
     margin-bottom: 0;
+    @include tablette{
+      font-size: 30px;
+   }
 }
 .nav__liste-numerotee {
     counter-reset: li;
@@ -13,10 +16,16 @@ nav h1 {
     display: flex;
     flex-direction: column;
     margin: 10px 5% 50px 5%;
+    @include tablette{
+       margin: 10px 15% 50px 15%;
+    }
 
     &-elements a:link {
        text-decoration: none;
        color: black;
+       @include tablette{
+          font-size: 18px;
+       }
     }
     &-elements a:hover {
        background-color: #f5edff;
@@ -38,6 +47,13 @@ nav h1 {
          align-items: center;
          box-shadow: 5px 4px 8px 2px #e6e6e6;
          margin-bottom: 8px;
+         @include petit-mobile{
+            padding: 15px;
+         }
+         @include tablette{
+            padding: 30px;
+            margin-bottom: 20px;
+         }
     }
     &-elements a:before {
          content: counter(li);
@@ -57,17 +73,26 @@ nav h1 {
        font-size: 20px;
        padding-left: 15px;
        padding-right: 25px;
+       @include tablette{
+          font-size: 25px;
+       }
     }
     .fa-list-ul {
        color: gray;
        font-size: 20px;
        padding-right: 20px;
        padding-left: 15px;
+       @include tablette{
+         font-size: 25px;
+      }
     }
     .fa-store {
        color: gray;
        font-size: 15px;
        padding-left: 15px;
        padding-right: 20px;
+       @include tablette{
+         font-size: 25px;
+      }
     }
 }    
