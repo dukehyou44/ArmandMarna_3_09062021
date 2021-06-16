@@ -4,13 +4,13 @@
     top: 15px;
     right: 15px;
     padding: 8px 15px;
-    background-color: #99E2D0;
+    background-color: $couleur-tertiaire;
     color: #139273;
     font-weight: 700;
     border-radius: 4px;
 }
 @mixin btn {
-     background: linear-gradient(#FF79DA ,#9356DC);
+     background: linear-gradient($couleur-secondaire ,$couleur-primaire);
      border-radius: 25px;
      width: 60%;
      color: #ffffff;

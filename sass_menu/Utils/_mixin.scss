@@ -1,0 +1,18 @@
+@mixin tablette {
+    @media screen and (min-width: map-get($breakpoints , tablette)) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: map-get($breakpoints , deskop)) {
+        @content;
+    }
+}
+
+
+@mixin large-laptop {
+    @media screen and (min-width: map-get($breakpoints , large screens)) {
+        @content;
+    }
+}

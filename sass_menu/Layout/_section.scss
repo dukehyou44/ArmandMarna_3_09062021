@@ -22,11 +22,17 @@ section {
        font-size: 25px;
        margin-left: 5%;
        padding-top: 15px;
+       @include tablette{
+          font-size: 30px;
+       }
     }
     .fa-heart { 
        font-size: 25px;
        margin-right: 40px;
        padding-top: 15px;
+       @include tablette{
+         font-size: 35px;
+      }
     }
 
     h2 {
@@ -35,10 +41,24 @@ section {
        font-weight: 400;
        margin-left: 5%;
        padding-bottom: 10px;
+       border-bottom: 3px solid $couleur-tertiaire;
+       width: 12%;
+       @include tablette{
+         font-size: 24px;
+         width: 8%;
+         border-bottom: 5px solid $couleur-tertiaire;
+      }
     }
 }    
 .article__titre {
     margin-top: -40px;
+    border-bottom: 3px solid $couleur-tertiaire;
+    width: 12%;
+    @include tablette{
+      font-size: 24px;
+      width: 8%;
+      border-bottom: 5px solid $couleur-tertiaire;
+   }
 }
 article {
     padding-bottom: 10px;
@@ -57,6 +77,13 @@ article {
        margin-bottom: 0;
        margin-left: 10px;
        margin-top: 10px;
+       width: 70%;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       @include tablette{
+          font-size: 24px;
+       }
     }
     ul {
        padding-left: 0;
@@ -68,8 +95,20 @@ article {
        margin-left: 10px;
        margin-bottom: 10px;
     }
+    li:nth-child(1) {
+       overflow: hidden;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       width: 70%;
+       @include tablette{
+         font-size: 21px;
+      }
+    }
     li:nth-child(2) {
        margin-right: 20px;
        font-weight: 900;
+       @include tablette{
+         font-size: 22px;
+      }
     }
 }  

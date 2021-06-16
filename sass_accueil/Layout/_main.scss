@@ -71,10 +71,10 @@ article {
         transform: scale(0.5);
     }
     .fa-heart:hover {
-        color: #FF79DA;
+        color: $couleur-secondaire;
         display: block;
-        background: -webkit-linear-gradient(#FF79DA, #9356DC);
-        background-clip: text;
+        background: -webkit-linear-gradient($couleur-secondaire, $couleur-primaire);
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 900;
         transform-origin: bottom;

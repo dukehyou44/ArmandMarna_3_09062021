@@ -12,6 +12,9 @@ header {
     .fa-arrow-left {
        margin-left: 5%;
        font-size: 20px;
+       @include tablette{
+          font-size: 40px;
+       }
     }
     a:visited, a:hover, a:link {
        color: black;
