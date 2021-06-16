@@ -67,8 +67,6 @@ article {
     }         
     .fa-heart {
         font-size: 32px;
-        transition: transform 2000ms ease-out;
-        transform: scale(0.5);
     }
     .fa-heart:hover {
         color: $couleur-secondaire;
@@ -77,8 +75,6 @@ article {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 900;
-        transform-origin: bottom;
-        transform: scale(1);
     }
     a:hover, a:visited, a:link {
         color: black;
