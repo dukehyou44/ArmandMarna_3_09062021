@@ -67,15 +67,40 @@ article {
     }         
     .fa-heart {
         font-size: 32px;
-    }
-    .fa-heart:hover {
-        color: $couleur-secondaire;
-        display: block;
-        background: -webkit-linear-gradient($couleur-secondaire, $couleur-primaire);
+      } 
+      .heart {
+        position:relative;
+        z-index:1;
+        cursor: pointer;
+        -webkit-text-stroke: 0px white;
+      }
+      .heart2 {
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:-1;
+        background: linear-gradient($couleur-secondaire, $couleur-primaire);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-weight: 900;
-    }
+        opacity:0;
+        transform: scale(0);
+        transition:.6s ease;
+      }
+      
+      .heart:hover .heart2{
+        transform:scale(1);
+        opacity:1;
+      }
+      
+      
+      
+      .heart:hover{
+        background: linear-gradient($couleur-secondaire, $couleur-primaire);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0px white;
+      }
+      
     a:hover, a:visited, a:link {
         color: black;
         text-decoration: none;

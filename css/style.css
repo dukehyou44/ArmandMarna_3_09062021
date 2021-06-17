@@ -357,14 +357,33 @@ article .article__presentation-titre-et-lieu p {
 article .fa-heart {
   font-size: 32px;
 }
-article .fa-heart:hover {
-  color: #FF79DA;
-  display: block;
-  background: -webkit-linear-gradient(#FF79DA, #9356DC);
+article .heart {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-text-stroke: 0px white;
+}
+article .heart2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 900;
-  transform: opacity(0);
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.6s ease;
+}
+article .heart:hover .heart2 {
+  transform: scale(1);
+  opacity: 1;
+}
+article .heart:hover {
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0px white;
 }
 article a:hover, article a:visited, article a:link {
   color: black;
