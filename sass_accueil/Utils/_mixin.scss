@@ -45,28 +45,3 @@
         @content;
     }
 }
-
-
-.spinner {
-    width: 64px;
-    height: 64px;
-    margin: 8px;
-    border-radius: 50%;
-    border: 6px solid #f2f2f2;
-    border-top: 6px solid $couleur-primaire;
-    animation: spin 2.0s;
-    right: 100px;
-    margin-top: 20%;
-    margin-left: 45%;
-    }
-   
-    @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-          z-index: 1;
-          opacity: 0;
-        }
-    }
