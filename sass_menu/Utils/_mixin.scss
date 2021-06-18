@@ -4,6 +4,13 @@
     }
 }
 
+@mixin ipadpro {
+    @media screen and (min-width: map-get($breakpoints , ipadpro)) {
+        @content;
+    }
+}
+
+
 @mixin laptop {
     @media screen and (min-width: map-get($breakpoints , deskop)) {
         @content;

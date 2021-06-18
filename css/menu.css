@@ -42,6 +42,11 @@ header .fa-arrow-left {
     font-size: 40px;
   }
 }
+@media screen and (min-width: 1020px) {
+  header .fa-arrow-left {
+    font-size: 43px;
+  }
+}
 header a:visited, header a:hover, header a:link {
   color: black;
   margin-left: 20px;
@@ -74,11 +79,26 @@ section h1 {
 }
 @media screen and (min-width: 768px) {
   section h1 {
-    font-size: 30px;
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  section h1 {
+    font-size: 43px;
   }
 }
 section .fa-heart {
   font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  section .fa-heart {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  section .fa-heart {
+    font-size: 48px;
+  }
 }
 section .heart {
   position: relative;
@@ -125,6 +145,13 @@ section h2 {
     border-bottom: 5px solid #99E2D0;
   }
 }
+@media screen and (min-width: 1020px) {
+  section h2 {
+    font-size: 28px;
+    width: 6%;
+    border-bottom: 5px solid #99E2D0;
+  }
+}
 
 .article__titre {
   margin-top: -40px;
@@ -135,6 +162,13 @@ section h2 {
   .article__titre {
     font-size: 24px;
     width: 8%;
+    border-bottom: 5px solid #99E2D0;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .article__titre {
+    font-size: 28px;
+    width: 6%;
     border-bottom: 5px solid #99E2D0;
   }
 }
@@ -152,6 +186,11 @@ article h3 {
 @media screen and (min-width: 768px) {
   article h3 {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  article h3 {
+    font-size: 28px;
   }
 }
 article .article__menus1, article .article__menus2, article .article__menus3, article .article__menus4 {
@@ -174,11 +213,31 @@ article .article__menus1 .article__menus1_description p, article .article__menus
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media screen and (min-width: 768px) {
+  article .article__menus1 .article__menus1_description p, article .article__menus1 .article__menus2_description p, article .article__menus1 .article__menus3_description p, article .article__menus1 .article__menus4_description p, article .article__menus2 .article__menus1_description p, article .article__menus2 .article__menus2_description p, article .article__menus2 .article__menus3_description p, article .article__menus2 .article__menus4_description p, article .article__menus3 .article__menus1_description p, article .article__menus3 .article__menus2_description p, article .article__menus3 .article__menus3_description p, article .article__menus3 .article__menus4_description p, article .article__menus4 .article__menus1_description p, article .article__menus4 .article__menus2_description p, article .article__menus4 .article__menus3_description p, article .article__menus4 .article__menus4_description p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  article .article__menus1 .article__menus1_description p, article .article__menus1 .article__menus2_description p, article .article__menus1 .article__menus3_description p, article .article__menus1 .article__menus4_description p, article .article__menus2 .article__menus1_description p, article .article__menus2 .article__menus2_description p, article .article__menus2 .article__menus3_description p, article .article__menus2 .article__menus4_description p, article .article__menus3 .article__menus1_description p, article .article__menus3 .article__menus2_description p, article .article__menus3 .article__menus3_description p, article .article__menus3 .article__menus4_description p, article .article__menus4 .article__menus1_description p, article .article__menus4 .article__menus2_description p, article .article__menus4 .article__menus3_description p, article .article__menus4 .article__menus4_description p {
+    font-size: 26px;
+  }
+}
 article .article__menus1 .article__menus_prix, article .article__menus2 .article__menus_prix, article .article__menus3 .article__menus_prix, article .article__menus4 .article__menus_prix {
   display: flex;
   align-items: flex-end;
   font-weight: 900;
   margin: 5px 20px -5px 0;
+}
+@media screen and (min-width: 768px) {
+  article .article__menus1 .article__menus_prix, article .article__menus2 .article__menus_prix, article .article__menus3 .article__menus_prix, article .article__menus4 .article__menus_prix {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  article .article__menus1 .article__menus_prix, article .article__menus2 .article__menus_prix, article .article__menus3 .article__menus_prix, article .article__menus4 .article__menus_prix {
+    font-size: 25px;
+  }
 }
 article .article__menus1 .article__menus_checkbox, article .article__menus2 .article__menus_checkbox, article .article__menus3 .article__menus_checkbox, article .article__menus4 .article__menus_checkbox {
   display: flex;
@@ -194,6 +253,11 @@ article .article__menus1 .article__menus_checkbox, article .article__menus2 .art
 }
 article .article__menus1 .article__menus_checkbox .cercle, article .article__menus2 .article__menus_checkbox .cercle, article .article__menus3 .article__menus_checkbox .cercle, article .article__menus4 .article__menus_checkbox .cercle {
   color: white;
+}
+@media screen and (min-width: 768px) {
+  article .article__menus1 .article__menus_checkbox .cercle, article .article__menus2 .article__menus_checkbox .cercle, article .article__menus3 .article__menus_checkbox .cercle, article .article__menus4 .article__menus_checkbox .cercle {
+    font-size: 30px;
+  }
 }
 
 .article__menus1:hover .article__menus_checkbox, .article__menus2:hover .article__menus_checkbox, .article__menus3:hover .article__menus_checkbox, .article__menus4:hover .article__menus_checkbox {
@@ -255,7 +319,12 @@ footer h3 {
 }
 @media screen and (min-width: 768px) {
   footer h3 {
-    font-size: 26px;
+    font-size: 29px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  footer h3 {
+    font-size: 34px;
   }
 }
 footer ul {
@@ -271,6 +340,11 @@ footer ul li {
     font-size: 21px;
   }
 }
+@media screen and (min-width: 768px) {
+  footer ul li {
+    font-size: 26px;
+  }
+}
 footer ul li a {
   text-decoration: none;
   color: white;
@@ -284,6 +358,11 @@ footer .fa-utensils {
     font-size: 18px;
   }
 }
+@media screen and (min-width: 1020px) {
+  footer .fa-utensils {
+    font-size: 25px;
+  }
+}
 footer .fa-hands-helping {
   font-size: 11px;
   margin-right: 7px;
@@ -291,6 +370,11 @@ footer .fa-hands-helping {
 @media screen and (min-width: 768px) {
   footer .fa-hands-helping {
     font-size: 15px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  footer .fa-hands-helping {
+    font-size: 21px;
   }
 }
 

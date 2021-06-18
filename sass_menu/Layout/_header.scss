@@ -15,6 +15,9 @@ header {
        @include tablette{
           font-size: 40px;
        }
+       @include ipadpro{
+          font-size: 43px;
+       }
     }
     a:visited, a:hover, a:link {
        color: black;

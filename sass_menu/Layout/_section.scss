@@ -23,11 +23,20 @@ section {
        margin-left: 5%;
        padding-top: 15px;
        @include tablette{
-          font-size: 30px;
+          font-size: 34px;
+       }
+       @include ipadpro{
+          font-size: 43px;
        }
     }
     .fa-heart {
       font-size: 28px;
+      @include tablette{
+         font-size: 40px;
+      }
+      @include ipadpro{
+         font-size: 48px;
+      }
     } 
     .heart {
       position:relative;
@@ -72,6 +81,11 @@ section {
          width: 8%;
          border-bottom: 5px solid $couleur-tertiaire;
       }
+      @include ipadpro{
+         font-size: 28px;
+         width: 6%;
+         border-bottom: 5px solid $couleur-tertiaire;
+      }
     }
 }    
 .article__titre {
@@ -81,6 +95,11 @@ section {
     @include tablette{
       font-size: 24px;
       width: 8%;
+      border-bottom: 5px solid $couleur-tertiaire;
+   }
+   @include ipadpro{
+      font-size: 28px;
+      width: 6%;
       border-bottom: 5px solid $couleur-tertiaire;
    }
 }
@@ -95,6 +114,9 @@ article {
       text-overflow: ellipsis;
       @include tablette{
          font-size: 24px;
+      }
+      @include ipadpro{
+         font-size: 28px;
       }
     }
     .article__menus1, .article__menus2, .article__menus3, .article__menus4 {
@@ -114,6 +136,12 @@ article {
             margin: 5px 0 10px 10px;
             overflow: hidden;
             text-overflow: ellipsis;
+            @include tablette{
+               font-size: 20px;
+            }
+            @include ipadpro{
+               font-size: 26px;
+            }
            }
       }
       .article__menus_prix {
@@ -121,6 +149,12 @@ article {
          align-items: flex-end;
          font-weight: 900;
          margin: 5px 20px -5px 0;
+         @include tablette{
+            font-size: 20px;
+         }
+         @include ipadpro{
+            font-size: 25px;
+         }
       }
       .article__menus_checkbox {
         display: flex;
@@ -135,6 +169,9 @@ article {
         transition: 2s;
         .cercle {
           color: white;
+          @include tablette{
+             font-size: 30px;
+          }
          }
       }
     }   
