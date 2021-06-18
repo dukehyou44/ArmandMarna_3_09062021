@@ -271,6 +271,10 @@ footer ul li {
     font-size: 21px;
   }
 }
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
 footer .fa-utensils {
   font-size: 14px;
   margin-right: 9px;

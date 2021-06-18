@@ -19,7 +19,11 @@ footer {
             padding-bottom: 10px;
             @include tablette{
                 font-size: 18px;
-             }
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }    
     .fa-utensils {

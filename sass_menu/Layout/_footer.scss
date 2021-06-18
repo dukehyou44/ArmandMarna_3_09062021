@@ -21,7 +21,12 @@ footer {
            @include tablette{
                font-size: 21px;
             }
-       }
+       
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
    }    
    .fa-utensils {
        font-size: 14px;
