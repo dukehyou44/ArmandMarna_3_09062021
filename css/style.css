@@ -310,6 +310,7 @@ article {
   background-color: #ffffff;
   margin: 5px 5% 20px 5%;
   position: relative;
+  box-shadow: 5px 4px 8px 2px #e6e6e6;
 }
 @media screen and (min-width: 768px) {
   article {

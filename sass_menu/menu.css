@@ -1,3 +1,39 @@
+.article__menus1 {
+  -webkit-animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+          animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  opacity: 0;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+}
+
+.article__menus1__liste1 {
+  -webkit-animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+          animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  opacity: 0;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+}
+
+.article__menus1:nth-of-type(1) {
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+.article__menus1:nth-of-type(1) .article__menus1__liste1:nth-of-type(1) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+.article__menus1:nth-of-type(1) .article__menus1__liste1:nth-of-type(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.article__menus1:nth-of-type(1) .article__menus1__liste1:nth-of-type(3) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -149,6 +185,11 @@ section h2 {
 
 article {
   padding-bottom: 10px;
+  -webkit-animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+          animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  opacity: 0;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
 }
 
 article div {
@@ -166,6 +207,11 @@ article div {
   margin: 5%;
   -webkit-box-shadow: 2px 7px 10px 4px #e8e8e8;
           box-shadow: 2px 7px 10px 4px #e8e8e8;
+  -webkit-animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+          animation: enter 200ms forwards cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  opacity: 0;
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
 }
 
 article h3 {
@@ -224,6 +270,21 @@ article li:nth-child(2) {
   article li:nth-child(2) {
     font-size: 22px;
   }
+}
+
+article div:nth-of-type(1) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+article div:nth-of-type(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+article div:nth-of-type(3) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
 }
 
 footer {
