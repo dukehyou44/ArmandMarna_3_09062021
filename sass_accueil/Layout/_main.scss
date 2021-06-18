@@ -14,7 +14,7 @@ section {
         justify-content: space-evenly;
      }
 
-    h1 {
+    h2 {
         padding-top: 25px;
         margin-left: 5%;
         @include tablette{
@@ -55,7 +55,7 @@ article {
         &-titre-et-lieu {
             background-color: white;
         
-             h2 {
+             h3 {
                   font-size: 18px;
                   font-weight: 800;
                   margin: 3px;
