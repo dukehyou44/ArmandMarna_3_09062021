@@ -21,6 +21,9 @@ section {
             font-size: 30px;
             width: 100%;
          }
+         @include ipadpro{
+             font-size: 37px;
+         }
     }
 }    
 article {
@@ -54,15 +57,24 @@ article {
     
         &-titre-et-lieu {
             background-color: white;
+            @include ipadpro{
+                margin-top: -10px;
+            }
         
              h3 {
                   font-size: 18px;
                   font-weight: 800;
                   margin: 3px;
+                  @include ipadpro{
+                      font-size: 26px;
+                  }
              }
              p {
                  font-size: 15px;
                  margin: 2px 3px;  
+                 @include ipadpro{
+                     font-size: 22px;
+                 }
              }
         }
     }         

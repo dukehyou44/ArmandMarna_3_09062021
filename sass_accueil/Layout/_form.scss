@@ -16,7 +16,10 @@ form {
     .fa-map-marker-alt {
         font-size: 18px;
         padding-right: 5px;
-        color: #404040
+        color: #404040;
+        @include ipadpro{
+            font-size: 28px;
+        }
     }
     #recherche {
         border: 0;
@@ -29,6 +32,9 @@ form {
         @include tablette{
             font-size: 22px;
             width: 260px;
+        }
+        @include ipadpro{
+            font-size: 26px;
         }
     }
 }  

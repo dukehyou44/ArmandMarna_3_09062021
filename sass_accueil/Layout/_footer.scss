@@ -1,30 +1,38 @@
 footer {
     background-color:#353535;
     color: #ffffff;
-
+ 
      h4 {
         font-family: "Shrikhand", cursive;
         font-size: 15px;
         padding: 15px 0 1px 25px;
         @include tablette{
-            font-size: 22px;
+            font-size: 29px;
          }
+         @include ipadpro{
+          font-size: 34px;
+       }
     }
      ul {
         list-style-type: none;
-        padding: 0;
-        padding-left: 25px;
+        padding: 0 0 35px 25px;
+        margin-bottom: 0;
+ 
     
          li {
             padding-bottom: 10px;
             @include tablette{
-                font-size: 18px;
-            }
-            a {
-                text-decoration: none;
-                color: white;
-            }
-        }
+                font-size: 21px;
+             }
+             @include tablette{
+                font-size: 26px;
+             }
+        
+           a {
+             text-decoration: none;
+             color: white;
+           }
+         }
     }    
     .fa-utensils {
         font-size: 14px;
@@ -32,6 +40,9 @@ footer {
         @include tablette{
             font-size: 18px;
          }
+         @include ipadpro{
+          font-size: 25px;
+       }
     }
     .fa-hands-helping {
         font-size: 11px;
@@ -39,5 +50,8 @@ footer {
         @include tablette{
             font-size: 15px;
          }
+         @include ipadpro{
+          font-size: 21px;
+       }
     }
-}    
+ }    

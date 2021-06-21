@@ -19,6 +19,14 @@ body .page {
 @media screen and (min-width: 768px) {
   .section__btn-commander {
     font-size: 21px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+@media screen and (min-width: 1524px) {
+  .section__btn-commander {
+    margin-left: 40%;
+    margin-right: 40%;
   }
 }
 

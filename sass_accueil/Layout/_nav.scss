@@ -7,6 +7,9 @@ nav h2 {
     @include tablette{
       font-size: 30px;
    }
+   @include ipadpro{
+      font-size: 37px;
+   }
 }
 .nav__liste-numerotee {
     counter-reset: li;
@@ -19,12 +22,20 @@ nav h2 {
     @include tablette{
        margin: 40px 15% 50px 15%;
     }
+    @include laptop{
+       margin: 40px;
+       flex-direction: row;
+       justify-content: space-around;
+    }
 
     &-elements a:link {
        text-decoration: none;
        color: black;
        @include tablette{
           font-size: 18px;
+       }
+       @include ipadpro{
+          font-size: 23px;
        }
     }
     &-elements a:hover {
@@ -67,6 +78,13 @@ nav h2 {
          position: absolute;
          left: -10px;
          background-color: $couleur-primaire;
+         @include ipadpro{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+         }
     }
     .fa-mobile-alt {
        color: $couleur-nav-fa;

@@ -9,5 +9,11 @@
     margin-right: 25%;
     @include tablette{
         font-size: 21px;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    @include large-laptop{
+        margin-left: 40%;
+        margin-right: 40%;
     }
 }
