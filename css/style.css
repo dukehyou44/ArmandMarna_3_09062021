@@ -146,6 +146,11 @@ header .header__logo {
   }
 }
 
+.header__presentation-btn:hover {
+  background: linear-gradient(#FF79DA 30%, #9356DC 100%);
+  box-shadow: 8px 12px 10px 4px #cfcfcf;
+}
+
 form {
   background-color: #eaeaea;
   height: 40px;
