@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass":"sass --watch ./sass_accueil/styles.scss:.//css/style.css",
-    "sass2": "sass --watch ./sass_menu/menu.scss:.//css/menu.css"   
+    "sass2":"sass --watch ./sass_menu/menu.scss:.//css/menu.css"   
   },
   "repository": {
     "type": "git",
